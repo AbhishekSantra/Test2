@@ -1,0 +1,6 @@
+AWSTemplateFormatVersion: 2010-09-09
+Resources:
+  CFNBucket:
+    Type: MyCompany::S3::Bucket::MODULE
+    Properties:
+      VersioningConfigurationParam: Enabled
